@@ -1,10 +1,9 @@
 class FbthriftCompiler < Formula
   desc "IDL compiler from Facebook's Thrift, an RPC system"
   homepage "https://github.com/facebook/fbthrift"
-  url "https://github.com/facebook/fbthrift/archive/v2017.10.30.00.tar.gz"
-  version "2017.10.30.00"
-  sha256 "c945e539af960db2ccbe888e5af58791950bf3116b5cffd7ef45ef8d266d7c62"
-
+  url "https://github.com/facebook/fbthrift/archive/v2018.04.09.00.tar.gz"
+  version "2018.04.09.00"
+  sha256 "07edcfd57ae2824e7cb02da43f5ee3c6c980dd6f2bbbd5a824243733d3869767"
   head "https://github.com/facebook/fbthrift.git"
 
   depends_on "autoconf" => :build
